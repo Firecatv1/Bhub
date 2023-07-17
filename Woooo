@@ -1,0 +1,8 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+OrionLib:MakeNotification({
+	Name = "Module Toggled",
+	Content = "Powered Jump-Boost has been Enabled!",
+	Image = "rbxassetid://14073380398",
+	Time = 2.5
+})
