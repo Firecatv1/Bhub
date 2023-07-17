@@ -1,8 +1,7 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    	_G.Velo = true
 
-OrionLib:MakeNotification({
-	Name = "Module Toggled",
-	Content = "Powered Jump-Boost has been Enabled!",
-	Image = "rbxassetid://14073380398",
-	Time = 2.5
-})
+			while _G.Velo do
+				game.Players.LocalPlayer.character.HumanoidRootPart.Velocity = game.Players.LocalPlayer.character.HumanoidRootPart.Velocity + Vector3.new(0,35,0)
+				game.Workspace.Gravity = 0
+				wait(0.1)
+			end
