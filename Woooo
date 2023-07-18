@@ -1,7 +1,0 @@
-    	_G.Velo = true
-
-			while _G.Velo do
-				game.Players.LocalPlayer.character.HumanoidRootPart.Velocity = game.Players.LocalPlayer.character.HumanoidRootPart.Velocity + Vector3.new(0,35,0)
-				game.Workspace.Gravity = 0
-				wait(0.1)
-			end
